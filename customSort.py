@@ -5,9 +5,9 @@ def sort_dict_list(dict_list, key): # define a function and assign 2 parametres 
     return sorted(dict_list, key=lambda x: x[key]) # here we use the sorted function to sort the list of dictionaries based on the key
 
 dict_list = [ # create a list of dictionaries of a student and their marks
-    {'name': 'John', 'score': 90},
-    {'name': 'Mike', 'score': 78},
     {'name': 'Joe', 'score': 65},
+    {'name': 'Mike', 'score': 78},
+    {'name': 'John', 'score': 90},
     {'name': 'Alice', 'score': 40}
 ]
 
@@ -18,8 +18,8 @@ def sort_dict_desc(dict_list1, key): # define a function and assign 2 parametres
     return sorted(dict_list1, key=lambda x: x[key], reverse=True) # here it's the same as the above function, except we use the inbult reverse function to sort the list in descending order.
 
 dict_list1 = [  # create a list of dictionaries of a student and their marks
-    {'name': 'Flex', 'score': 91},
     {'name': 'Eric', 'score': 82},
+    {'name': 'Flex', 'score': 91},
     {'name': 'Joanna', 'score': 55},
     {'name': 'Reagan', 'score': 20}
 ]
